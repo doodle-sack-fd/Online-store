@@ -172,7 +172,7 @@
                     <h3>NЁRDS DESIGN STUDIO</h3>
                     <p>наб. Реки Карповки, <br> 5 лит П, Санкт-Петербург</p>
                     <a class="main-phone" href="tel:+78005558628">+7 800 555-86-28</a>
-                    <a class="button contacts-button" href="#">Напишите нам</a>
+                    <a class="contacts-button button" href="#">Напишите нам</a>
                 </div>
                 <div class="contact-marker">
                     <img src="/main/img/Map/map-marker.png" width="231" height="190"
@@ -231,21 +231,21 @@
         </div>
     </footer>
 
-    <section class="modal modal-login visually-hidden">
+    <section class="modal">
         <h2>Напишите нам</h2>
         <form class="user-form" action="https://echo.htmlacademy.ru/courses">
             <ul class="modal-items">
                 <li class="modal-name">
                     <label for="user-name">Ваше имя:</label>
-                    <input type="text" id="user-name" name="name" placeholder="Имя Фамилия">
+                    <input class="user-name" type="text" id="user-name" name="name" placeholder="Имя Фамилия">
                 </li>
                 <li class="modal-email">
                     <label for="user-email">Ваш e-mail:</label>
-                    <input type="email" id="user-email" name="email" placeholder="email@example.com">
+                    <input class="user-emali" type="email" id="user-email" name="email" placeholder="email@example.com">
                 </li>
                 <li class="modal-comment">
-                    <label for="user-comment">Текст письма:</label>
-                    <textarea id="user-comment" name="user-comment" rows="4" placeholder="В свободной форме"></textarea>
+                    <label for="comment">Текст письма:</label>
+                    <textarea class="user-comment" id="user-comment" name="comment" rows="4" placeholder="В свободной форме"></textarea>
                 </li>
                 <li class="modal-button">
                     <button type="submit">отправить</button>
@@ -254,6 +254,8 @@
         </form>
         <button class="modal-close" type="button" aria-label="Закрыть"></button>
     </section>
+
+    <script src="main/js/popup.js"></script>
 
 </body>
 
