@@ -277,7 +277,6 @@ hr{
 }
 .slider-item p{
     margin-bottom: 38px;
-    max-width: 400px;
 }
 .slider-item-smartphone::after{
     content: "";
