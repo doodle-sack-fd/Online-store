@@ -320,7 +320,7 @@ hr{
 
 .slider-item-smartphone::after{
     content: "";
-    background-image: url("/main/img/Management/slide-first.png");
+    background-image: url("main/img/Management/slide-first.png");
     position: absolute;
     bottom: 0;
     left: 400px;
@@ -330,7 +330,7 @@ hr{
 
 .slider-item-monitor::after{
     content: "";
-    background-image: url("/main/img/Management/slide-second.png");
+    background-image: url("main/img/Management/slide-second.png");
     position: absolute;
     bottom: 0;
     left: 400px;
@@ -340,7 +340,7 @@ hr{
 
 .slider-item-tablet::after{
     content: "";
-    background-image: url("/main/img/Management/slide-third.png");
+    background-image: url("main/img/Management/slide-third.png");
     position: absolute;
     bottom: 0;
     left: 400px;
@@ -764,20 +764,20 @@ hr{
     position: absolute;
     width: 25px;
     height: 25px;
-    background-image: url("/main/img/Checkbox/radio-off.svg");
+    background-image: url("main/img/Checkbox/radio-off.svg");
     margin-left: -2em;
 }
 
 .check-grid-input:checked + .check-box-grid{
     width: 25px;
     height: 25px;
-    background-image: url("/main/img/Checkbox/radio-on.svg");
+    background-image: url("main/img/Checkbox/radio-on.svg");
 }
 
 .check-grid-input:focus + .check-box-grid{
     width: 25px;
     height: 25px;
-    background-image: url("/main/img/Checkbox/radio-on.svg");
+    background-image: url("main/img/Checkbox/radio-on.svg");
 }
 
 /* Check-box Hover - 1 */
@@ -785,19 +785,19 @@ hr{
 .check-grid-input:hover:checked + .check-box-grid{
     width: 25px;
     height: 25px;
-    background-image: url("/main/img/Checkbox/radio-on-checked-hover.svg");
+    background-image: url("main/img/Checkbox/radio-on-checked-hover.svg");
 }
 
 .check-grid-input:focus:checked + .check-box-grid{
     width: 25px;
     height: 25px;
-    background-image: url("/main/img/Checkbox/radio-on-checked-hover.svg");
+    background-image: url("main/img/Checkbox/radio-on-checked-hover.svg");
 }
 
 .check-grid-input:hover + .check-box-grid{
     width: 25px;
     height: 25px;
-    background-image: url("/main/img/Checkbox/radio-off-hover.svg");
+    background-image: url("main/img/Checkbox/radio-off-hover.svg");
 }
 
 .check{
@@ -811,31 +811,31 @@ hr{
     position: absolute;
     width: 23px;
     height: 23px;
-    background-image: url("/main/img/Checkbox/checkbox-off.svg");
+    background-image: url("main/img/Checkbox/checkbox-off.svg");
     margin-left: -2em;
 }
 
 .check-input:checked + .check-box{
-    background-image: url("/main/img/Checkbox/checkbox-on.svg");
+    background-image: url("main/img/Checkbox/checkbox-on.svg");
     width: 25px;
     height: 23px;
 }
 
 /* Check-box Hover */
 .check-input:hover:checked + .check-box{
-    background-image: url("/main/img/Checkbox/checkbox--hover-on.svg");
+    background-image: url("main/img/Checkbox/checkbox--hover-on.svg");
 }
 
 .check-input:hover + .check-box{
-    background-image: url("/main/img/Checkbox/checkbox-off-hover.svg");
+    background-image: url("main/img/Checkbox/checkbox-off-hover.svg");
 }
 
 .check-input:focus:checked + .check-box{
-    background-image: url("/main/img/Checkbox/checkbox--hover-on.svg");
+    background-image: url("main/img/Checkbox/checkbox--hover-on.svg");
 }
 
 .check-input:focus + .check-box{
-    background-image: url("/main/img/Checkbox/check-f1.svg");
+    background-image: url("main/img/Checkbox/check-f1.svg");
 }
 
 .catalog-container{
@@ -1334,7 +1334,7 @@ hr{
     border: none;
     background: transparent;
     position: absolute;
-    background: url("/main/img/Icon/shape-close-modal.svg") no-repeat;
+    background: url("main/img/icon/icon.svg") no-repeat;
     width: 23px;
     height: 23px;
     top: 80px;
