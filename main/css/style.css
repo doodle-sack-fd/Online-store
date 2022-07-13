@@ -511,9 +511,7 @@ hr{
     margin-bottom: 63px;
 }
 /* Contacts */
-.main-contacts{
-    
-}
+
 .contacts-container{
     width: 1160px;
     margin: 0 auto;
@@ -529,7 +527,7 @@ hr{
     padding: 50px 50px;
     top: 54px;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
-
+    z-index: 2;
 }
 .main-contacts h3{
     font-weight: 700;
@@ -557,10 +555,32 @@ hr{
     position: absolute;
     top: 70px;
     left: 760px;
+    z-index: 1;
 }
-.contact-map img{
-    width: 100%;
+.contact-map  {
+    position: relative;
     height: 416px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contacts-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    z-index: 1;
+}
+.contact-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none; 
+    z-index: 0;
 }
 .contacts-button:hover{
     background-color: var(--btn-red-hover);
@@ -1073,6 +1093,7 @@ padding-bottom: 33px;
     width: 960px;
     height: 590px;
     display: none;
+    z-index: 2;
 }
 .modal-show{
     display: block;
@@ -1167,4 +1188,10 @@ padding-bottom: 33px;
     top: 80px;
     right:80px;
     cursor: pointer;
+}
+.modal-close:hover{
+    opacity: 0.7;
+}
+.modal-close:focus{
+    opacity: 0.2;
 }
