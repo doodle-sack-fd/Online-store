@@ -29,11 +29,15 @@ cntButton.addEventListener('click', function (evt) {
 popupClose.addEventListener('click', function (evt) {
     evt.preventDefault();
     popup.classList.remove('modal-show');
+    popup.classList.remove('shake');
 });
 
 form.addEventListener('submit', function (evt) {
     if (!userName.value || !userEmail.value) {
         evt.preventDefault();
+        popup.classList.remove('shake');
+        popup.offsetWidth = popup.offsetWidth;
+        popup.classList.add('shake');
     } else {
         if (isStorageSupport) {
             localStorage.setItem('name', userName.value);

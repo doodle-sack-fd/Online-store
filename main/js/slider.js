@@ -5,7 +5,7 @@ const btnSliderOne = document.querySelector('.btn-slider-1');
 const btnSliderTwo = document.querySelector('.btn-slider-2');
 const btnSliderThree = document.querySelector('.btn-slider-3');
 
-btnSliderOne.addEventListener('click', function(evt){
+btnSliderOne.addEventListener('click', function (evt) {
     evt.preventDefault();
     slideSmartphone.classList.add('slide-current');
     sliderMonitor.classList.remove('slide-current');
